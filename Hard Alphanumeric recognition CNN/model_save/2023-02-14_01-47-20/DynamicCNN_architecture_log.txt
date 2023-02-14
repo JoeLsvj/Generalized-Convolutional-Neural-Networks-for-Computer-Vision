@@ -1,0 +1,36 @@
+{
+    "h_in": 50,
+    "w_in": 50,
+    "min_size": 6,
+    "ch_in_0": 1,
+    "ch_out_0": 64,
+    "formule_conv": [
+        "2**x",
+        "2**(-x)"
+    ],
+    "layers": [
+        5,
+        5
+    ],
+    "conv2d": [
+        3,
+        1,
+        1,
+        1
+    ],
+    "pool2d": [
+        "max",
+        3,
+        2,
+        1
+    ],
+    "classifier": [
+        [
+            2048,
+            2
+        ]
+    ],
+    "num_classes": 32,
+    "learning_rate": 0.001,
+    "epoch": 15
+}
